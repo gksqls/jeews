@@ -6,5 +6,4 @@ public abstract class Model<T> extends ModelImpl<T> implements Serializable{
 
 	private static final long serialVersionUID = 7137139865707980099L;
 	
-	
 }

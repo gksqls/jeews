@@ -1,5 +1,7 @@
 package org.gksqls.jeews;
 
+import org.junit.Test;
+
 import junit.framework.TestCase;
 
 /**
@@ -8,5 +10,9 @@ import junit.framework.TestCase;
  *
  */
 public class Application extends TestCase{
-
+	
+	@Test
+	public void testModel(){
+		
+	}
 }
