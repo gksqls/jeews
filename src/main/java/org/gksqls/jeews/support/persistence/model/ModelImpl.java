@@ -2,11 +2,14 @@ package org.gksqls.jeews.support.persistence.model;
 
 import java.util.List;
 
+import javax.annotation.Resource;
+
 import org.gksqls.jeews.support.common.exception.ModelException;
 import org.mybatis.spring.SqlSessionTemplate;
 
 public class ModelImpl<T> implements ModelInterface<T>{
 	
+	@Resource
 	private SqlSessionTemplate sqlSessionTemplate;
 	
 	public void insert(String id) throws ModelException {
