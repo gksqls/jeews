@@ -14,21 +14,21 @@ public interface Push {
 	 * @param template
 	 * @throws PushException
 	 */
-	public void textMsg(PushTemplate template) throws PushException;
+	public String textMsg(PushTemplate template) throws PushException;
 	
 	/**
 	 * Push news message
 	 * @param template
 	 * @throws PushException
 	 */
-	public void newsMsg(PushTemplate template) throws PushException;
+	public String newsMsg(PushTemplate template) throws PushException;
 	
 	/**
 	 * push music messgae
 	 * @param template
 	 * @throws PushException
 	 */
-	public void musicMsg(PushTemplate template) throws PushException;
+	public String musicMsg(PushTemplate template) throws PushException;
 	
 	
 }

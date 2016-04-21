@@ -72,6 +72,29 @@ public class PushTemplate {
 		msg.setMusic(music);
 		return msg;
 	}
-	
+
+	public void setFromUserName(String fromUserName) {
+		this.fromUserName = fromUserName;
+	}
+
+	public void setToUserName(String toUserName) {
+		this.toUserName = toUserName;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public void setMusic(Music music) {
+		this.music = music;
+	}
+
+	public void setArticleCount(int articleCount) {
+		this.articleCount = articleCount;
+	}
+
+	public void setArticles(List<Article> articles) {
+		this.articles = articles;
+	}
 
 }
