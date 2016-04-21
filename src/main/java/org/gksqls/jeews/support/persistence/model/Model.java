@@ -1,4 +1,4 @@
-package org.gksqls.jeews.support.persistence;
+package org.gksqls.jeews.support.persistence.model;
 
 import java.io.Serializable;
 
