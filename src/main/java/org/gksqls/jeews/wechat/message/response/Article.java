@@ -1,6 +1,6 @@
 package org.gksqls.jeews.wechat.message.response;
 
-import org.gksqls.jeews.support.common.wechat.XmlSupport;
+import org.gksqls.jeews.support.wechat.XmlSupport;
 
 public class Article extends XmlSupport{
 	

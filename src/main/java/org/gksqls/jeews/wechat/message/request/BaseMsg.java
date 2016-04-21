@@ -2,7 +2,7 @@ package org.gksqls.jeews.wechat.message.request;
 
 import java.io.Serializable;
 
-import org.gksqls.jeews.support.common.wechat.XmlSupport;
+import org.gksqls.jeews.support.wechat.XmlSupport;
 
 public class BaseMsg extends XmlSupport implements Serializable{
 	

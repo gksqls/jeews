@@ -1,4 +1,4 @@
-package org.gksqls.jeews.support.common.wechat;
+package org.gksqls.jeews.support.wechat;
 
 import java.io.InputStream;
 import java.io.Writer;
